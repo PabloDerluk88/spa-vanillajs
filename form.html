@@ -1,0 +1,42 @@
+<div id="formulario">
+    <h1>FORM</h1>
+    <div class="viewcontainer">
+        <div class="formcontainer">
+            <form id="actualForm" action="form.php" method="POST">
+                <div>
+                    <label for="fname">First name:</label>
+                    <input id="form-name" type="text" name="fname">
+                </div>
+
+                <div>
+                    <label id="perrayo" for="Lname">Last name:</label>
+                    <input id="form-lastname" type="text" name="Lname">
+                </div>
+
+                <div>
+                    <label for="E-mail">E-mail:</label>
+                    <input id="form-email" type="text" name="Email">
+                </div>
+
+                <div>
+                    <label for="movie">Choose your favourite Movie:</label>
+                    <select id="form-movie" name="movie">
+                        <option value="Alien">Alien (1979)</option>
+                        <option value="Aliens">Aliens (1986)</option>
+                        <option value="Alien 3">Alien 3 (1982)</option>
+                        <option value="Alien Resurrection">Alien Resurrection (1997)</option>
+                    </select>
+                </div>
+
+                <div>
+
+                    <label for="message">Leave a message:</label>
+                    <textarea id="form-textarea" name="message" rows="10" cols="30"></textarea>
+
+                </div>
+                <button id="form-submit" type="submit" name="submit">Submit</button>
+                <p class="form-message"></p>
+            </form>
+        </div>
+    </div>
+</div>
