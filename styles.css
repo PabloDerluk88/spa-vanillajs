@@ -155,6 +155,7 @@ header nav ul li {
     background-image: url("img/jockey.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -1028,8 +1029,11 @@ footer div {
     #form-submit {
         width: 23%;
     }
-    .l-container {
-        width: 70%;
+    .gallery-container {
+        width: 60%;
+    }
+    .l-container{
+        width: 90%;
     }
 }
 
@@ -1159,19 +1163,26 @@ footer div {
         width: 23%;
     }
     .gallery-container {
-        width: 79%;
+        width: 60%;
+    }
+    .l-container{
+        width: 90%;
     }
 }
 
 @media only screen and (min-width: 731px) {
-    .gallery-container {
-        width: 69%;
-    }
+  
     .formcontainer {
         width: 55%;
     }
     .form-message {
         bottom: 0%;
+    }
+    .gallery-container {
+        width: 50%;
+    }
+    .l-container{
+        width: 90%;
     }
 }
 
@@ -1211,7 +1222,6 @@ footer div {
         font-size: 1.5vh;
     }
     .gallery-container {
-        width: 65%;
         min-height: 70vh;
     }
 }
@@ -1306,7 +1316,7 @@ footer div {
         width: 50%;
     }
     .gallery-container {
-        min-height: 55vh;
+        min-height: 30vh;
     }
     .video2 {
         width: 69%;
