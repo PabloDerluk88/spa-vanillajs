@@ -4,7 +4,7 @@
     margin: 0;
 }
 html { 
-    background: url("img/biobg.jpg") no-repeat fixed; 
+    background: black no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
